@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.CsvController",
+    "Method": "GenerateCsv",
+    "RelativePath": "api/Csv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.CsvController",
+    "Method": "ImportCsv",
+    "RelativePath": "api/Csv/import",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.StudentsController",
+    "Method": "GetAllStudent",
+    "RelativePath": "api/Students/GetAllStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[web_API_Crud_operation_with_Angular.WeatherForecast, web API Crud operation with Angular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
