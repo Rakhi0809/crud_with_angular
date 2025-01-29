@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web API Crud operation with Angular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc4977a0b69b80ad3bc417f393c35244f80a5cda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b423393cf7dd4df8e7b919cdee788d560dbd3011")]
 [assembly: System.Reflection.AssemblyProductAttribute("web API Crud operation with Angular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web API Crud operation with Angular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

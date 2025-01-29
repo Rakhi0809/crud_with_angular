@@ -26,6 +26,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.EncryptionController",
+    "Method": "Decrypt",
+    "RelativePath": "api/Encryption/decrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cipherText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.EncryptionController",
+    "Method": "Encrypt",
+    "RelativePath": "api/Encryption/encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "web_API_Crud_operation_with_Angular.Controllers.StudentsController",
     "Method": "GetAllStudent",
     "RelativePath": "api/Students/GetAllStudent",
